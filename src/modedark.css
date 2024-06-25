@@ -1,0 +1,161 @@
+{{/* mode gelap */}}
+  .dark-mode .work__item {
+  color: white;
+}
+  .dark-mode .work__item:hover {
+  background-color: #555;
+} 
+    /* Style umum yang berlaku untuk kedua mode */
+    body, html, .allkonten {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .main {
+        padding: 20px;
+    }
+
+    /* Style untuk mode terang */
+    .allkonten.light-mode {
+        background-color: white;
+        color: black;
+    }
+
+.dark-mode .button.button--flex:hover {
+  background-color: #555; /* Black background on hover */
+}
+    
+    .allkonten.light-mode .home__social-icon {
+        color: black;
+    }
+
+    /* Style untuk mode gelap */
+    .allkonten.dark-mode {
+        background-color: black;
+        color: white;
+    }
+
+    .allkonten.dark-mode .header, 
+    .allkonten.dark-mode .footer {
+        background-color: #333; /* Contoh warna untuk header dan footer gelap */
+        color: white;
+    }
+
+    .allkonten.dark-mode .home__social-icon {
+        color: white;
+    }
+
+    /* Style untuk tombol toggle */
+    .mode-toggle {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        width: auto; /* Memastikan lebar otomatis */
+        margin-top: 20px; /* Memberi jarak dari elemen lainnya */
+    }
+
+    .mode-toggle:hover {
+        background-color: #555;
+    }
+{{/* mode gelap */}}
+
+
+
+{{/* darkmode konten */}}
+
+      /* modedark.css */
+
+        .dark-mode .nav__link {
+            color: white;
+        }
+
+        .light-mode .nav__link {
+            color: black;
+        }
+
+        .dark-mode .nav__logo {
+            color: white;
+        }
+
+        .light-mode .nav__logo {
+            color: black;
+        }
+
+        .home__title--dark {
+        color: white; /* atau warna terang lainnya */
+        }
+
+        .home__subtitle--dark {
+        color: white; /* atau warna terang lainnya */
+        }
+
+      .title{
+        text-align: center;
+        justify-content: center;
+      }
+
+      .light-mode .section__title {
+        color: var(--title-color-dark);
+    }
+    
+    /* Styling for dark mode */
+    .dark-mode .section__title {
+        color: #ffffff; /* atau warna lain yang Anda inginkan untuk mode gelap */
+    }
+
+
+    /* Dark mode styles */
+    .dark-mode .about__box {
+        background-color: #333; /* dark gray */
+        color: white;
+      }
+      
+      .dark-mode .about__box svg {
+        color: white;
+      }
+      .dark-mode .about__box {
+        background-color: #333; /* Dark gray background */
+      }
+      
+      .dark-mode .about__title,
+      .dark-mode .about__subtitle {
+        color: #fff; /* White text */
+      }
+
+
+    /* Dark mode styles */
+    .dark-mode .work__card {
+      background-color: #333; /* Dark gray */
+      color: white;
+    }
+
+    .dark-mode .work__title {
+      color: white;
+    }
+
+    .dark-mode .work__button {
+      background-color: #333;
+      color: white;
+    }
+
+    /* Light mode styles */
+    .light-mode .work__card {
+      background-color: white;
+      color: black;
+    }
+
+    .light-mode .work__title {
+      color: black;
+    }
+
+    .light-mode .work__button {
+      background-color: white;
+      color: black;
+    }
+
+{{/* darkmode konten */}}
+
+
