@@ -1,5 +1,6 @@
 .skills__container.container.grid{
     justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
 }
 
 .skills__box {

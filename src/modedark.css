@@ -1,4 +1,14 @@
 {{/* mode gelap */}}
+/* Dark mode styles */
+.dark-mode .work__item {
+  color: white;
+  background-color: #333; /* Dark gray background */
+}
+
+.dark-mode .work__item:hover {
+  background-color: #555; /* Darker gray background on hover */
+}
+
   .dark-mode .work__item {
   color: white;
 }
@@ -155,6 +165,14 @@
       background-color: white;
       color: black;
     }
+
+    @media screen and (max-width: 768px) {
+  /* CSS khusus untuk layar handphone */
+  .dark-mode .work__item {
+    background-color: #333; /* Dark gray background */
+    color: white;
+  }
+}
 
 {{/* darkmode konten */}}
 
