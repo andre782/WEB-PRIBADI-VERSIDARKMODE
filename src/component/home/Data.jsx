@@ -62,8 +62,8 @@ const Data = ({ isDarkMode }) => {
         </svg>
       </h1>
 
-      <h3 className={subtitleClass}>Frontend Developer</h3>
-      <p className='home__description'>I am a frontend developer based in Indonesia. I am very passionate about this field and have dedicated my life to working in it.</p>
+      <h3 className={subtitleClass}>Fullstack Developer</h3>
+      <p className='home__description'>I am a Fullstack developer based in Indonesia. I am very passionate about this field and have dedicated my life to working in it.</p>
       
       <a href='#contact' className='button button--flex'>
         Hallo

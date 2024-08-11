@@ -1,6 +1,7 @@
 import React from 'react'
 import Frontend from "./Frontend"
 import Backend from "./Backend"
+import ItSupport from "./ItSupport"
 
 
 const Skill = () => {
@@ -12,6 +13,7 @@ const Skill = () => {
         <div className="skills__container container grid">
             <Frontend/>
             <Backend/>
+            <ItSupport/>
         </div>
     </section>
   )
