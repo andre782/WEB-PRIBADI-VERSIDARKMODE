@@ -1,3 +1,8 @@
+.container_qualification {
+  display: flex;
+}
+
+
 .qualification__container.container{
     max-width: 400px;
 }
@@ -44,6 +49,10 @@
     padding: 2rem;
     /* display: flex; */
 }
+.qualification__datas{
+        padding: 1.9rem;
+}
+
 .qualification__rounder {
     display: inline-block;
     width: 13px;
@@ -74,6 +83,12 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .container_qualification {
+      display: block; 
+    }
+     .qualification__container {
+      margin-bottom: 20px; /* Menambahkan jarak antar kontainer pada perangkat mobile */
+    }
   }
     
     /* For medium devices */
@@ -93,6 +108,12 @@
     .qualification__title{
         font-size: 1rem;
     }
+     .container_qualification {
+      display: block; 
+    }
+     .qualification__container {
+    margin-bottom: 20px; /* Menambahkan jarak antar kontainer pada perangkat mobile */
+     }
      
   }
 

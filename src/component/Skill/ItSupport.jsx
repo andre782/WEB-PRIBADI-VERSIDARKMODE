@@ -50,11 +50,10 @@ const ItSupport = () => {
             <HiOutlineBadgeCheck className="icon"/>
 
             <div>
-              <h3 className="skills__name">Google Workspace</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">CCTV Maintenance</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
-
           <div className="skills__data">
             <HiOutlineBadgeCheck className="icon"/>
             <div>
