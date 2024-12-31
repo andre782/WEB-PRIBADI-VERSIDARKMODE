@@ -8,6 +8,8 @@ import LazyLoad from "../../assets/lazyload.jpg"
 import Eco from "../../assets/ecommerce.jpg";
 import ItemGame from "../../assets/itemgame.jpg";
 import Gym from "../../assets/GYM.jpg"
+import Golang from "../../assets/golang.jpg"
+
 
 
 
@@ -35,10 +37,10 @@ export const projectData = [
   },
   {
     id: 4,
-    image: Work4,
-    title: "App movil",
+    image: Golang,
+    title: "GO backend",
     category: "app",
-    link: "https://link-proyek-4.netlify.app/",
+    link: "https://github.com/andre782/golang_api_projectlatihan",
   },
   {
     id: 5,
